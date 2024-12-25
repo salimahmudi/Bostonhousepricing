@@ -1,4 +1,4 @@
-# Boston House Pricing Project
+# Boston House Pricing Prediction
 
 ## Software and Tools Requirements
 
@@ -100,7 +100,9 @@ Explanation: Commits the changes with a descriptive message.
 Push your local repository to GitHub:
 
 ```bash
+git push origin master
 git push origin main
+
 ```
 
 Explanation: Pushes the `main` branch to your GitHub repository. Ensure the repository is already linked.
