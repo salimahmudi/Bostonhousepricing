@@ -42,7 +42,7 @@ Explanation: Initializes Conda in your shell. After running this command, restar
 Activate the environment you created earlier:
 
 ```bash
-conda activate C:\Users\salima\Desktop\Portfolio_Data_Analysis_Projects\Project4_EndToEndMachineLearningProject\housepricing\Bostonhousepricing\venv
+conda activate C:\Users\salima\Desktop\Portfolio_Data_Analysis_Projects\Project4_ML\Bostonhousepricing\venv
 conda activate C:\path\to\your\environment\venv
 ```
 
@@ -54,6 +54,14 @@ Install the necessary libraries listed in `requirements.txt`:
 
 ```bash
 pip install -r requirements.txt
+```
+
+```bash
+pip install ipykernel
+```
+
+```bash
+python -m ipykernel install --user --name=venv --display-name "Python 3.7 (venv)"
 ```
 
 Explanation: Installs libraries such as Flask, sklearn, pandas, etc., that are required for the project.
@@ -114,6 +122,10 @@ Explanation: Pushes the `main` branch to your GitHub repository. Ensure the repo
 ### 10. Run the Flask Application Locally
 
 Start the Flask app:
+
+```bash
+python app.py
+```
 
 ```bash
 flask run
