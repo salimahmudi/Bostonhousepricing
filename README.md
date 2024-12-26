@@ -15,6 +15,10 @@ Follow the steps below to set up and run the **Boston House Pricing Project**.
 
 ### 1. Create a Conda Environment
 
+```bash
+conda activate development
+```
+
 Create a new Conda environment to manage project dependencies:
 
 ```bash
